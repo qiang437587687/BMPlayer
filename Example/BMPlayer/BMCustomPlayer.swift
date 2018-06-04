@@ -10,7 +10,8 @@ import UIKit
 import BMPlayer
 
 class BMCustomPlayer: BMPlayer {
-    class override func storyBoardCustomControl() -> BMPlayerControlView? {
+    
+     override func storyBoardCustomControl() -> BMPlayerControlView? {
         return BMPlayerCustomControlView()
     }
 }
